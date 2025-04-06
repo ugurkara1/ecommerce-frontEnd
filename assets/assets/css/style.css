@@ -719,3 +719,251 @@ footer {
         margin-right: 0;
     }
 }
+
+
+/* Product Detail Page */
+.product-image-wrapper .swiper-button-prev, 
+.product-image-wrapper .swiper-button-next {
+    right: 0;
+}
+
+.product-image-wrapper .swiper-button-prev:after, 
+.product-image-wrapper .swiper-button-next:after {
+    font-size: 25px;
+    color: #f38509; 
+}
+
+.big-slider {
+    position: relative;
+    overflow-y: hidden;
+    padding: 0 50px; 
+}
+
+.thumb-sliders {
+    min-height: 200px;
+    position: relative; /* Slider içindeki butonların doğru konumlandırılması için */
+    margin-top: 15px; /* Ana ve thumb slider arasında boşluk */
+}
+
+.thumb-sliders-buttons {
+    font-size: 25px;
+    position: absolute;
+    top: 60%; /* Butonları dikey olarak ortala */
+    transform: translateY(-50%);
+    transform: translateX(50%);
+    width: 50%;
+    display: flex;
+    justify-content: space-between; /* Sol ve sağ butonları yanlara yerleştir */
+    padding: 0 10px;
+    z-index: 10; /* Butonların slider üzerinde görünmesi için */
+}
+
+.thumb-prev, .thumb-next {
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 5px 10px;
+    border-radius: 50%;
+}   
+
+.thumb-sliders-buttons span:hover{
+    color: #f38509;
+}
+
+.thumb-image,
+.big-image img{
+    width: 100%;
+
+}
+.product-detail {
+    position: relative;  /* Pozisyon ayarları için gerekli */
+    letter-spacing: 1px;
+}
+
+.product-detail h4 {
+    letter-spacing: 1px;
+}
+
+.product-detail hr {
+    border-top: 1px solid rgba(0, 0, 0, 0.6);
+}
+
+.price {
+    letter-spacing: 1px;
+}
+
+.discount-rate {
+    position: absolute;
+    top: 0;
+    right: 0;  /* Sağdan (right) sola (left) değiştirildi */
+    background-color: #f38509;
+    height: 65px;
+    width: 65px;
+    padding: 5px;
+    text-align: center;
+    color: #fff;
+    font-weight: normal;
+    line-height: 30px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.discount-rate span {
+    font-size: 12px;
+    line-height: 20px;
+}
+.btn.bg-orange {
+    background-color: #f38509;
+    border-color:   #f38509;
+    color:          #fff;
+}
+
+.btn.bg-orange:hover {
+    background-color: #e06e00;
+    border-color:   #e06e00;
+}
+
+
+.product-detail .product-short-description {
+    line-height: 25px;
+    letter-spacing: 0.05em;
+}
+
+/* favoriye alma */
+.shopping .bi-heart{
+    font-size: 20px;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+.piece-wrapper .input-group{
+    border: 1px solid #f38509;
+    border-radius: 5px;
+
+}
+
+.piece-wrapper .input-group span{
+    height: 50px;
+    width: 33%;
+    text-align: center;
+    position: relative;
+    line-height: 50px;
+    font-size: 20px;
+    color: #f38509;
+    cursor: pointer;
+}
+
+
+.piece-wrapper input{
+    background-color: #fff;
+    max-width: 33%;
+    text-align: center;
+    color: #787878;
+    border: none;
+}
+
+.piece-wrapper .input-group span.piece-increase::before{
+    left: 0;
+    right: auto;
+}
+
+.piece-wrapper .input-group span.piece-decrease::before,
+.piece-wrapper .input-group span.piece-increase::before{
+    position: absolute;
+    width: 1px ;
+    height: 22px;
+    background-color: #f38509;
+    top: 50%;
+    right: 0;
+    content: "";
+    margin-top: -11px;
+}
+
+.shopping select{
+    height: 50px;   
+    border:1px solid #f38509;
+}
+
+.shopping select:focus{
+    border-color: #f38509;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(286, 107, 0, 0.44);
+}
+
+.add-to-card{
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    padding: 0;
+}
+
+.add-to-cart:hover{
+    background-color: #e06e00;
+    border-color: #e06e00;
+}
+
+
+/* Accordion özelleştirmeleri */
+.accordion-item {
+    border-color: #f38509;
+}
+
+/* Collapsed olmayan durum (açık) */
+.accordion-button:not(.collapsed) {
+    color: #fff;
+    background-color: #f38509;
+    box-shadow: inset 0 -1px 0 rgba(243, 133, 9, 0.5);
+}
+
+/* Focus durumu */
+.accordion-button:focus {
+    border-color: #f38509;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(243, 133, 9, 0.4);
+}
+
+/* Hover durumu */
+.accordion-button:hover {
+    background-color: #f38509 !important;
+    color: #fff !important;
+}
+/* Bootstrap'in varsayılan stillerini ezmek için !important kullanımı */
+.accordion-button:focus {
+    box-shadow: 0 0 0 0.25rem rgba(243, 133, 9, 0.4) !important;
+    border-color: #f38509;
+    
+}
+
+/* Active durumu */
+.accordion-button:active {
+    background-color: rgba(250, 133, 0, 0.2);   
+}
+
+
+/* After pseudo-element (ok işareti) */
+.accordion-button::after {
+    color: #f38509;
+    
+}
+
+/* Açık durumdaki ok işareti */
+/* Sadece açılmış accordion butonu hover’ı */
+.accordion-button:not(.collapsed):hover {
+    background-color: #f38509 !important;
+    color: #fff !important;
+    
+}
+.accordion-button:not(.collapsed):hover::after {
+    color: #fff !important;
+}
+
+
+/* Accordion başlığı */
+.accordion-header {
+    margin-bottom: 0;
+}
+
+/* Accordion body stilini özelleştirme */
+.accordion-body {
+    padding: 1rem;
+    border-top: 1px solid rgba(243, 133, 9, 0.2);
+}

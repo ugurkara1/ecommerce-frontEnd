@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anasayfa</title>
+    <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="fonts/bootstrap-icons/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+</head>
+<body>
+    <div class="top-bar bg-black">
+        <div class="container">
+            <div class="login float-end ">
+                <ul class="login-list">
+                    
+                    <li><a href="" class="text-white">GİRİŞ</a></li>
+                    <li><a href="" class="text-white">KAYIT</a></li>
+                    <li><a href="" class="text-white">SİPARİŞLERİM</a></li>
+                    <li><a href="" class="text-white">SEPETİM</a></li>
+                    <li class="dropdown user-basket position-relative" >
+                        <a href="javascript:void(0)" class="dropdown-toggle" 
+                        role="button" 
+                        data-bs-toggle="dropdown" 
+                        aria-expanded="false"> 
+                            <i class="bi bi-cart zoom text-white fs-4"></i>
+                            <span class="item-count bg-orange text-black">13</span>
+                        </a>
+                        <div class="dropdown-menu">
+                            <div class="row overflow-custom">
+                                <div class="col-12">
+                                    <div class="card d-flex flex-row align-items-center border-0">
+                                        <div class="col-4">
+                                            <img src="assets/images/shopping.webp" alt="" class="img-fluid rounded-start">
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Ürün Başlığı</h5>
+                                                <p class="card-text">Fiyat: 10TL</p>
+                                                <p class="card-text">Adet: 1</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12"><hr class="my-4"></div>
+                        
+                                <div class="col-12">
+                                    <div class="card d-flex flex-row align-items-center border-0">
+                                        <div class="col-4">
+                                            <img src="assets/images/shopping.webp" alt="" class="img-fluid rounded-start">
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Ürün Başlığı</h5>
+                                                <p class="card-text">Fiyat: 10TL</p>
+                                                <p class="card-text">Adet: 1</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12"><hr class="my-4"></div>
+                        
+                                <div class="col-12">
+                                    <div class="card d-flex flex-row align-items-center border-0">
+                                        <div class="col-4">
+                                            <img src="assets/images/shopping.webp" alt="" class="img-fluid rounded-start">
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Ürün Başlığı</h5>
+                                                <p class="card-text">Fiyat: 10TL</p>
+                                                <p class="card-text">Adet: 1</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12"><hr class="my-4"></div>
+                        
+                                <div class="col-12">
+                                    <div class="card d-flex flex-row align-items-center border-0">
+                                        <div class="col-4">
+                                            <img src="assets/images/shopping.webp" alt="" class="img-fluid rounded-start">
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Ürün Başlığı</h5>
+                                                <p class="card-text">Fiyat: 10TL</p>
+                                                <p class="card-text">Adet: 1</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12"><hr class="my-4"></div>
+                        
+                                <!-- Toplam Fiyatı En Alta Taşıdık -->
+                                <div class="row total-price">
+                                    <div class="col-12">
+                                        <hr class="my-4">
+                                    </div>
+                                    <div class="col-12">
+                                        <h5 class="text-center">
+                                            <span>Toplam:</span>
+                                            <span>250 TL</span>
+                                        </h5>
+                                    </div>
+                                    <div class="col-12">
+
+                                    </div>
+                                    <div class="col-12 basket-buttons">
+                                        <div class="row " style="border-radius: 0 !important;">
+                                            <div class="col-6">
+                                                <a href="" class="btn btn-outline-warning w-100">Sepet</a>
+                                            </div>
+                                            <div class="col-6">
+                                                <a href="" class="btn btn-outline-success w-100">Ödeme</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                    </li>
+                    
+
+
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <header>
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <img src="assets/images/logo.png" alt="" class="logo">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item active dropdown">
+                        <a class="nav-link active dropdown-toggle" aria-current="page" href="javascript:void(0)" data-bs-toggle="dropdown" role="button">MARKALAR</a>
+                        <div class="dropdown-menu">
+                          <div class="container-fluid">
+                            <!-- BAŞLIKLAR & İÇERİK -->
+                            <div class="row">
+                              <!-- MARKALAR Bölümü (9/12'lik alan) -->
+                              <div class="col-md-9 pe-4"> <!-- sağ padding eklendi -->
+                                <h4 class="mb-4">TÜM MARKALAR</h4>
+                                <div class="row nav brands">
+                                  <!-- 1. Marka Grubu -->
+                                  <div class="col navbar-column mb-4">
+                                    <a href="product-list.html" class="dropdown-link text-dark text-decoration-none">Adidas</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Nike</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Puma</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Skechers</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Lotto</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Huf</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Reebok</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Parafina</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Salomon</a>
+                                  </div>
+                      
+                                  <!-- 2. Marka Grubu -->
+                                  <div class="col navbar-column mb-4">
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Rains</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">United</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Vans</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Veja</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Market</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Nautica</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Element</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Etnies</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Funko</a>
+                                  </div>
+                      
+                                  <!-- 3. Marka Grubu -->
+                                  <div class="col navbar-column mb-4">
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Columbia</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Brekenstock</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Casio</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Converse</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Crocs</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Jordan</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Primitive</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Timberland</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">XD Design</a>
+                                  </div>
+                      
+                                  <!-- 4. Marka Grubu -->
+                                  <div class="col navbar-column mb-4">
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Rains</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">United</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Vans</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Veja</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Market</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Nautica</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Element</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Etnies</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Funko</a>
+                                  </div>
+                                </div>
+                              </div>
+                      
+                              <!-- TRENDLER Bölümü (3/12'lik alan) -->
+                              <div class="col-md-3 navbar-column ps-4"> <!-- sol padding eklendi -->
+                                <h4 class="mb-4">Trendler</h4>
+                                <div class="nav-brand-swiper swiper-container">
+                                  <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                      <a href="#">
+                                        <img src="assets/images/product2.jpeg" class="img-fluid" alt="Ürün görseli">
+                                      </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                      <a href="#">
+                                        <img src="assets/images/product3.jpeg" class="img-fluid" alt="Ürün görseli">
+                                      </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                      <a href="#">
+                                        <img src="assets/images/product4.jpeg" class="img-fluid" alt="Ürün görseli">
+                                      </a>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>   
+                      <li class="nav-item dropdown">
+                        <!-- toggle sınıfı ve data-bs-toggle özniteliği kaldırıldı -->
+                        <a class="nav-link" aria-current="page" href="#">KADIN</a>
+                        <div class="dropdown-menu">
+                          <div class="container-fluid">
+                            <div class="row">
+                              <!-- Kategoriler Bölümü (9/12'lik alan) -->
+                              <div class="col-md-9 pe-4">
+                                <h4 class="mb-4">Kategoriler</h4>
+                                <div class="row nav categories">
+                                  <!-- 1. Kategori Grubu -->
+                                  <div class="col navbar-column mb-4">
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Bot</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Kar Botu</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Outdoor Ayakkabı</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Sandalet</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Terlik</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Spor Ayakkabılar</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Yürüyüş Ayakkabıları</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Sneakers</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Günlük Ayakkabılar</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Koşu Ayakkabıları</a>
+                                  </div>
+                                  <!-- 2. Kategori Grubu -->
+                                  <div class="col navbar-column mb-4">
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Babet</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Bağcıksız Ayakkabı</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Bottle</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Ev Ayakkabısı</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Loafer Ayakkabı</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Anne Ayakkabısı</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Spor Gelin Ayakkabısı</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Ayakkabı Bakım Ürünleri</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Webe Özel Ürünler</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Turn Kadın Ayakkabıları</a>
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- Trendler Bölümü (3/12'lik alan) -->
+                              <div class="col-md-3 navbar-column ps-4">
+                                <h4 class="mb-4">Trendler</h4>
+                                <div class="nav-brand-swiper swiper-container">
+                                  <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                      <a href="#">
+                                        <img src="assets/images/product2.jpeg" class="img-fluid" alt="Ürün görseli">
+                                      </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                      <a href="#">
+                                        <img src="assets/images/product3.jpeg" class="img-fluid" alt="Ürün görseli">
+                                      </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                      <a href="#">
+                                        <img src="assets/images/product4.jpeg" class="img-fluid" alt="Ürün görseli">
+                                      </a>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div><!-- row -->
+                          </div><!-- container-fluid -->
+                        </div><!-- dropdown-menu -->
+                      </li>
+                      
+                      
+                  <li class="nav-item">
+                    <a class="nav-link " href="#">ERKEK</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">ÇOCUK</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">YENİ</a>
+                  </li>
+
+<!--                 <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li> -->
+
+                </ul>
+
+              </div>
+              <div class="nav-right">
+                <a href="javascript:void(0)" class="search-open">
+                    <i class="bi bi-search zoom fs-4"></i>
+                </a>
+                <div class="search-inside bg-orange">
+                    <i class="bi bi-x search-close"></i>
+                    <div class="search-overlay"></div>
+                    <div class="position-center-center">
+                        <div class="search animate__animated animate__backInUp">
+                            <form action="">
+                                <input type="search" placeholder="Arama">
+                                <button type="submit"><i class="bi bi-check-circle"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+        
+
+
+    </header>
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+            <div class="product-image-wrapper position-relative">
+              <!-- Ana slider (büyük resimler için) -->
+              <div class="swiper-container big-slider">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide big-image">
+                    <div class="swiper-zoom-container">
+                      <img src="assets/images/product1.jpeg" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide big-image">
+                    <div class="swiper-zoom-container">
+                      <img src="assets/images/product2.jpeg" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide big-image">
+                    <div class="swiper-zoom-container">
+                      <img src="assets/images/product3.jpeg" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide big-image">
+                    <div class="swiper-zoom-container">
+                      <img src="assets/images/product2.jpeg" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide big-image">
+                    <div class="swiper-zoom-container">
+                      <img src="assets/images/product1.jpeg" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide big-image">
+                    <div class="swiper-zoom-container">
+                      <img src="assets/images/product4.jpeg" />
+                    </div>
+                  </div>
+                </div>
+                <!-- Ana slider için navigasyon düğmeleri -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+              </div>
+              
+              <!-- Thumbnail slider (küçük önizleme resimleri için) -->
+              <div class="swiper-container thumb-sliders">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img class="thumb-image" src="assets/images/product1.jpeg" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img class="thumb-image" src="assets/images/product2.jpeg" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img class="thumb-image" src="assets/images/product3.jpeg" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img class="thumb-image" src="assets/images/product4.jpeg" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img class="thumb-image" src="assets/images/product1.jpeg" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img class="thumb-image" src="assets/images/product4.jpeg" />
+                  </div>
+                </div>
+                
+                <!-- Butonlar wrapper dışında olmalı -->
+                <div class="thumb-sliders-buttons">
+                  <span class="thumb-prev">
+                    <i class="bi bi-arrow-left"></i>
+                  </span>
+                  <span class="thumb-next">
+                    <i class="bi bi-arrow-right"></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-7 product-detail">
+            <h4 class="fw-bold-600">NiteBall</h4>
+            <div class="price text-orange fw-bold-600">
+              199,99 TL
+            </div> 
+            <hr cşlass="mt-5">
+            <h6>Unisex Sneaker</h6>
+  
+            <hr>
+  
+            <h6>Adidas</h6>
+            <p class="product-short-description font-playfair">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, eveniet. Numquam sed libero nostrum culpa sint ex. Ut enim quae optio? Fugiat molestiae ullam dolorem doloremque tenetur dicta! Laboriosam, ratione.</p>
+  
+            <div class="shopping">
+              <div class="row">
+                <div class="col-md-1 text text-center">
+                  <i class="bi bi-heart text-orange"></i>
+                </div>
+                <div class="col-md-5">
+                  <div class="piece-wrapper">
+                    <div class="input-group">
+                      <span class="piece-decrease">-</span>
+                      <input type="text" name="value" value="0" disabled>
+                      <span class="piece-increase">+</span>
+  
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-5">
+                  <div class="input-group">
+                    <select name="" id="" class="form-control text-center">
+                      <option disabled selected ="">Beden</option>
+                      <option value="">42</option>
+                      <option value="">43</option>
+                      <option value="">44</option>
+                      <option value="">45</option>
+                      <option value="">46</option>
+                    </select>
+                  </div>
+                </div>
+  
+                <hr class="my-5">
+  
+                <div class="col-md-12">
+                  <a href="" class="btn bg-orange add-to-card w-100"
+                  >Sepete Ekle</a>
+                </div>
+              </div>
+            </div>
+            <div class="discount-rate">
+              %20
+              <span>İndirim</span>
+            </div>
+          </div>
+          <div class="col-md-12 mt-4">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    Ürün Hakkında
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit voluptas nulla ratione corporis quaerat doloribus voluptates quas minus dolor, impedit, in laudantium vitae vel? Provident ex totam inventore magni eum.
+                    Aut repudiandae error a dignissimos delectus quod dolor fugit libero accusantium cupiditate, in possimus facere quas, ipsum voluptas ducimus dolorum dicta ratione placeat facilis nobis porro doloribus labore! Atque, exercitationem!
+                    Tempore dolores cum saepe aperiam facilis aut eveniet minima, et dolor odio reiciendis quis perspiciatis possimus, maiores ea amet cupiditate voluptatem veritatis modi vel natus. Rerum excepturi minima labore doloribus.
+                    Laboriosam, atque, amet incidunt suscipit, officiis voluptate similique modi quisquam aliquid maxime dolore? Unde facere porro dolorem quaerat commodi id, non laborum quos maiores voluptatem numquam quidem officiis ex quae!
+                    Ratione hic commodi dolor eligendi reiciendis unde illo, dignissimos suscipit assumenda veniam maiores quam magni nam aspernatur velit officia facere, delectus soluta dolore! Officiis nesciunt voluptates necessitatibus placeat eius illum.
+                    Quia aliquid nemo, commodi modi odio doloremque rerum quibusdam tempora itaque porro placeat animi repellendus quaerat earum accusamus sunt reiciendis ea reprehenderit consequatur ipsam minus. Et accusantium accusamus quisquam temporibus.
+                    Explicabo debitis, nam enim pariatur, laboriosam aliquid ex, dicta assumenda placeat perferendis recusandae sint illum vel sed? Cupiditate laboriosam laborum facere hic adipisci unde quas! Dolores magnam nulla reiciendis laboriosam.
+                    Recusandae, labore numquam eum hic doloremque quasi facilis, dolore est, inventore ipsa molestiae incidunt. Blanditiis, rem totam hic dolorum ipsa assumenda eaque mollitia saepe molestias delectus omnis repudiandae porro eos.
+                    Quos nobis iste vitae laboriosam soluta placeat autem id beatae animi quo perferendis, expedita aut architecto unde iure non. Omnis maxime architecto veritatis nam ullam fugiat similique, veniam provident odio!
+                    Similique aperiam repudiandae nostrum rerum commodi odio, laudantium eligendi facere iure enim sequi quas iste incidunt aspernatur quos, autem quia ad voluptate repellendus praesentium. Officiis quidem voluptates nesciunt impedit laboriosam!
+                    Veritatis sequi facere delectus pariatur saepe, velit debitis non consequuntur repellendus tempore quis dolorum illo quo veniam explicabo maiores, cum quia quasi quibusdam omnis voluptatum ullam ut recusandae. Commodi, quia.
+                    Porro, nemo. Quidem odio cumque nisi, eaque quam voluptate in praesentium facilis consequuntur, dolor est optio quisquam unde alias iste vel aspernatur placeat impedit maxime aperiam doloremque. Aliquid, magni quis.
+                    Distinctio quam odit perferendis assumenda eius harum, facilis, atque obcaecati consequuntur adipisci ea qui soluta veritatis error pariatur doloremque veniam quis necessitatibus voluptas accusamus. Architecto sequi tempore illo magnam totam!
+                    Eius a mollitia vel distinctio ullam natus, in odio, animi eos ex sint nisi deserunt officia, perspiciatis et minus repellendus magnam omnis ipsum placeat. Quos aliquid maiores ex illum aut.
+                    Amet, et mollitia consectetur cumque earum hic quia error, rerum nobis explicabo quam quibusdam nihil doloremque? Eum earum magni ipsum cupiditate sunt. Animi, facilis. Porro sequi non esse corporis laudantium?
+                    Magnam, animi! Minima, tenetur obcaecati consectetur similique quo, id quisquam porro nisi odio libero necessitatibus. Minima culpa aliquam ullam quae praesentium hic aspernatur! Labore, sapiente velit? Distinctio reprehenderit blanditiis quae!
+                    Obcaecati sapiente excepturi corrupti alias magnam fuga pariatur suscipit optio voluptate nihil modi, in fugiat. Debitis nostrum eius consectetur sed, qui eaque praesentium impedit! Accusantium doloremque assumenda libero repellendus facilis.
+                    Nemo dolor fuga quos, nobis similique voluptas quae quod delectus culpa atque praesentium eligendi consectetur et perspiciatis repellendus alias. Voluptas impedit rem dicta quos facere consequuntur reprehenderit dolores, totam aperiam!
+                    Alias reprehenderit quo veniam voluptates et, quia consequatur odit dolorum iure fugit. Consectetur praesentium pariatur maiores fugit sapiente? Debitis animi asperiores molestias ratione voluptate, laudantium exercitationem optio qui nam sed?
+                    Et, iusto tempora! Fugiat temporibus magni minus reiciendis magnam ex aliquam repellat suscipit, illo libero ipsum omnis quam quaerat est facilis ipsa dignissimos. Quod, dignissimos. Quia maiores eius eveniet aspernatur?
+                    Odio, aspernatur sunt voluptatem mollitia labore quidem aperiam doloremque aliquam, odit assumenda consequuntur exercitationem accusamus. Facilis ea illo autem delectus voluptates voluptate, incidunt veritatis fugit, dolore accusamus est culpa dolores.
+                    Saepe ea amet repellat quas asperiores? Sit, distinctio asperiores illum laborum natus mollitia exercitationem saepe corporis eius, nisi cum iusto voluptas aperiam beatae. Impedit hic ipsum doloremque eius dolorum saepe.
+                    Officiis, deserunt, numquam, tempore corporis accusamus distinctio officia quis quaerat necessitatibus fuga nulla voluptatem placeat exercitationem quos veritatis similique quidem cum voluptatum reiciendis vitae ipsa? Aliquid delectus eos rerum optio?
+                    Vel suscipit a dicta. Eveniet, architecto sapiente vitae ratione eos iure exercitationem facilis aspernatur asperiores id tempore commodi nihil voluptates at minima fugit possimus delectus molestias cumque quia dolor itaque?
+                    Aliquid fuga vitae suscipit quae aperiam eaque beatae voluptatem hic dolore obcaecati perspiciatis consectetur deserunt possimus, aut expedita deleniti earum saepe nisi officiis maxime odio pariatur dolor! Officia, temporibus similique!</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    Teslimat
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quam mollitia suscipit ipsam officiis a ab aliquam est corrupti magni non quia atque facilis at reiciendis voluptates sequi, fugiat quos!
+                  Fuga hic recusandae dicta eaque veritatis dolor temporibus illo magnam molestiae mollitia quae natus voluptas, omnis nesciunt, impedit quo earum at minima distinctio amet nemo a accusantium sequi consectetur. Ducimus.
+                  Veritatis atque voluptas a molestiae maxime, rem tempore. Ullam suscipit, eveniet hic repellendus vel quae dolorem! Quaerat, suscipit optio iste voluptates, dolor eius debitis eos iusto praesentium cum provident iure!
+                  Dignissimos deserunt sit cum vero? Sunt ab ea odit repellendus consequuntur illo aliquam rerum assumenda dolore quasi labore natus minima quod eligendi eveniet, reprehenderit, aut excepturi quia, porro unde sint?
+                  Doloremque ab labore consectetur voluptatem distinctio numquam nostrum sapiente dolores repudiandae debitis, nobis expedita, cupiditate atque temporibus modi, deserunt asperiores repellendus nemo sequi quaerat iure? Debitis ipsa hic at incidunt?</div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </main>
+    <footer class="position-relative">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <h6 class="text-white">MARKALAR</h6>
+            <ul>
+              <li class="link">
+                <li><a href="#">Adidas</a></li>
+                <li><a href="#">Nike</a></li>
+                <li><a href="#">Puma</a></li>
+                <li><a href="#">Lumberjack</a></li>
+                <li><a href="#">Skechers</a></li>
+                <li><a href="#">Newbalance</a></li>
+
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h6 class="text-white">KATEGORİLER</h6>
+            <ul>
+              <li class="link">
+                <li><a href="#">Sneaker</a></li>
+                <li><a href="#">Basketbol Ayakkabısı</a></li>
+                <li><a href="#">Futbol Ayakkabısı</a></li>
+                <li><a href="#">Fitness Ayakkabısı</a></li>
+                <li><a href="#">Bot</a></li>
+                <li><a href="#">Terlik</a></li>
+
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h6 class="text-white">KURUMSAL</h6>
+            <ul>
+              <li class="link">
+                <li><a href="#">Hakkımızda</a></li>
+                <li><a href="#">Kullanıcı Sözleşmesi</a></li>
+                <li><a href="#">Gizlilik ve Çerez Politikası</a></li>
+                <li><a href="#">Bilgi Toplumu Hizmetleri</a></li>
+                <li><a href="#">Kişisel Verilerin Korunması</a></li>
+                <li><a href="#">İletişim</a></li>
+
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h6 class="text-white">ÖNEMLİ BİLGİLER</h6>
+            <ul>
+              <li class="link">
+                <li><a href="#">Sıkça Sorulan Sorular</a></li>
+                <li><a href="#">Garanti & İade Sorgulama</a></li>
+                <li><a href="#">Sipariş İşlemleri</a></li>
+                <li><a href="#">Kargo & Teslimat</a></li>
+                <li><a href="#">İade & Ürünler</a></li>
+                <li><a href="#">Mağazalar</a></li>
+
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="js/jquery/dist/jquery.min.js"></script>
+    <script src="swiper/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/home.js"></script>
+    <script src="js/product-detail.js"></script>
+</body>
+</html>
