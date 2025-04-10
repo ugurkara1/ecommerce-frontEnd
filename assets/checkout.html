@@ -434,6 +434,7 @@
                         <input type="text"  id="cardNumber">
                       </label>
                     </div>
+                    
                     <div class="col-md-4">
                       <label for="card-date">* SON KULLANMA TARİHİ
                         <select name="" id="card-date">
@@ -470,10 +471,114 @@
             </form>
 
           </div>
+          <div class="col-md-3 basket-detail shadow py-3">
+            <a href="" class="btn bg-orange text-white w-100 btn-approve-basket">Ödeme Yap <i class="bi bi-chevron-right"></i></a>
+            <div class="grand-total mt-4">
+              <p>Ürünün Toplamı: <span class="pull-right">599,70TL</span></p>
+              <p>Kargo Ücreti: <span class="pull-right">30TL</span></p>
+              <p>İndirim Kodu:
+              <br>
+                  #Sepette30 <span class="pull-right">30.00TL <i class="bi bi-trash"></i></span>
+              </p>
+
+
+              <br>
+              <p><strong>TOPLAM:</strong> <span class="pull-right">599,78TL</span></p>
+
+            </div>
+            <div class="discount-wrapper">
+              <br>
+              <h5 class="text-orange">İNDİRİM KODU</h5>
+              <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="İndirim Kodu Gir">
+                <button class="btn btn-outline-success" type="button" >Uygula</button>
+              </div>
+              <div class="contract shadow p-4 mt-4">
+                <label type="checkbox" >
+                  <input type="checkbox" id="contract">
+                </label> 
+                <div>
+                  <a href="javascript::void(0)" data-bs-toggle="modal" data-bs-target="#contractModal">Ön Bilgilendirme Koşulları</a>'nı ve'
+                  <a href="javascript::void(0)" data-bs-toggle="model" data-bs-target="#contractModal">Satış Sözleşmesi</a>'ni okudum,onaylıyorum.'
+
+                </div> 
+              </div>
+            </div>
+            <a href="" class="btn bg-orange text-white w-100 btn-approve-basket mt-4">Ödeme Yap <i class="bi bi-chevron-right"></i></a>
+
+          </div>
         </div>
       </div>
 
     </main>
+    <!-- Modal -->
+    <div class="modal fade" id="contractModal" tabindex="-1" aria-labelledby="contractModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="contractModalLabel">Sözleşmeler ve Formlar</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="text-wrapper">
+              <h5>Bilgilendirme Formu</h5>
+              <div class="contracts-text-wrapper">
+                <p>
+                  İşbu sözleşme, aşağıda bilgileri verilen satıcı ile alıcı arasında elektronik ortamda gerçekleştirilen satış işlemi kapsamında düzenlenmiştir.
+                </p>
+                <p>
+                  Satıcı: [Şirket Adı]<br>
+                  Alıcı: [Ad Soyad]
+                </p>
+                <p>
+                  Madde 1 - Konu: Bu sözleşmenin konusu, alıcının satıcıya ait web sitesinden elektronik ortamda sipariş verdiği aşağıda nitelikleri ve satış fiyatı belirtilen ürünün satışı ve teslimine ilişkin tarafların hak ve yükümlülüklerinin belirlenmesidir.
+                </p>
+                <p>
+                  Madde 2 - Ürün Bilgileri:<br>
+                  Ürün: [Ürün Adı]<br>
+                  Adet: 1<br>
+                  Fiyat: [XXX TL]
+                </p>
+                <p>
+                  Madde 3 - Teslimat: Ürün, alıcının belirttiği adrese, yasal süre içinde kargo aracılığıyla teslim edilecektir.
+                </p>
+                <p>
+                  Madde 4 - Cayma Hakkı: Alıcı, 14 gün içinde herhangi bir gerekçe göstermeksizin ve cezai şart ödemeksizin sözleşmeden cayma hakkına sahiptir.
+                </p>
+                <p>
+                  Cayma hakkının kullanılması durumunda ürün, kullanılmamış ve faturası ile birlikte iade edilmelidir.
+                </p>
+              </div>
+            </div>
+            <div class="text-wrapper">
+              <h5>Mesafeli Satış Sözleşmesi</h5>
+              <div class="contracts-text-wrapper">
+                <p>
+                  İşbu bilgilendirme formu, 6502 sayılı Tüketicinin Korunması Hakkında Kanun ve Mesafeli Sözleşmelere Dair Yönetmelik hükümleri gereğince tüketicinin bilgilendirilmesi amacıyla düzenlenmiştir.
+                </p>
+                <p>
+                  Satıcı: [Şirket Adı]<br>
+                  Adres: [Şirket Adresi]<br>
+                  Telefon: [Telefon Numarası]<br>
+                  E-Posta: [E-posta Adresi]
+                </p>
+                <p>
+                  Alıcı: [Ad Soyad]<br>
+                  Sipariş Tarihi: [GG/AA/YYYY]
+                </p>
+                <p>
+                  Ürün ve hizmetlerin temel nitelikleri, tüm vergiler dâhil toplam satış fiyatı, ödeme ve teslimat bilgileri sistem üzerinden sipariş öncesinde alıcı tarafından görüntülenmiş ve kabul edilmiştir.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="model-footer"></div>
+          <div class="modal-footer mt-5">
+            <button type="button" class="btn bg-orange text-white w-100 btn-contracts-approve">Onaylıyorum</button>
+          </div>
+        </div>
+      </div>
+    </div>
     <footer class="position-relative">
       <div class="container">
         <div class="row">
