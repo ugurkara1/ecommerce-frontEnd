@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anasayfa</title>
+    <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="fonts/bootstrap-icons/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+</head>
+<body>
+    <div class="top-bar bg-black">
+        <div class="container">
+            <div class="login float-end ">
+                <ul class="login-list">
+                    
+                    <li><a href="" class="text-white">GİRİŞ</a></li>
+                    <li><a href="" class="text-white">KAYIT</a></li>
+                    <li><a href="" class="text-white">SİPARİŞLERİM</a></li>
+                    <li><a href="" class="text-white">SEPETİM</a></li>
+                    <li class="dropdown user-basket position-relative" >
+                        <a href="javascript:void(0)" class="dropdown-toggle" 
+                        role="button" 
+                        data-bs-toggle="dropdown" 
+                        aria-expanded="false"> 
+                            <i class="bi bi-cart zoom text-white fs-4"></i>
+                            <span class="item-count bg-orange text-black">13</span>
+                        </a>
+                        <div class="dropdown-menu">
+                            <div class="row overflow-custom">
+                                <div class="col-12">
+                                    <div class="card d-flex flex-row align-items-center border-0">
+                                        <div class="col-4">
+                                            <img src="assets/images/shopping.webp" alt="" class="img-fluid rounded-start">
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Ürün Başlığı</h5>
+                                                <p class="card-text">Fiyat: 10TL</p>
+                                                <p class="card-text">Adet: 1</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12"><hr class="my-4"></div>
+                        
+                                <div class="col-12">
+                                    <div class="card d-flex flex-row align-items-center border-0">
+                                        <div class="col-4">
+                                            <img src="assets/images/shopping.webp" alt="" class="img-fluid rounded-start">
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Ürün Başlığı</h5>
+                                                <p class="card-text">Fiyat: 10TL</p>
+                                                <p class="card-text">Adet: 1</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12"><hr class="my-4"></div>
+                        
+                                <div class="col-12">
+                                    <div class="card d-flex flex-row align-items-center border-0">
+                                        <div class="col-4">
+                                            <img src="assets/images/shopping.webp" alt="" class="img-fluid rounded-start">
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Ürün Başlığı</h5>
+                                                <p class="card-text">Fiyat: 10TL</p>
+                                                <p class="card-text">Adet: 1</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12"><hr class="my-4"></div>
+                        
+                                <div class="col-12">
+                                    <div class="card d-flex flex-row align-items-center border-0">
+                                        <div class="col-4">
+                                            <img src="assets/images/shopping.webp" alt="" class="img-fluid rounded-start">
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Ürün Başlığı</h5>
+                                                <p class="card-text">Fiyat: 10TL</p>
+                                                <p class="card-text">Adet: 1</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12"><hr class="my-4"></div>
+                        
+                                <!-- Toplam Fiyatı En Alta Taşıdık -->
+                                <div class="row total-price">
+                                    <div class="col-12">
+                                        <hr class="my-4">
+                                    </div>
+                                    <div class="col-12">
+                                        <h5 class="text-center">
+                                            <span>Toplam:</span>
+                                            <span>250 TL</span>
+                                        </h5>
+                                    </div>
+                                    <div class="col-12">
+
+                                    </div>
+                                    <div class="col-12 basket-buttons">
+                                        <div class="row " style="border-radius: 0 !important;">
+                                            <div class="col-6">
+                                                <a href="" class="btn btn-outline-warning w-100">Sepet</a>
+                                            </div>
+                                            <div class="col-6">
+                                                <a href="" class="btn btn-outline-success w-100">Ödeme</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                    </li>
+                    
+
+
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <header>
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <img src="assets/images/logo.png" alt="" class="logo">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item active dropdown">
+                        <a class="nav-link active dropdown-toggle" aria-current="page" href="javascript:void(0)" data-bs-toggle="dropdown" role="button">MARKALAR</a>
+                        <div class="dropdown-menu">
+                          <div class="container-fluid">
+                            <!-- BAŞLIKLAR & İÇERİK -->
+                            <div class="row">
+                              <!-- MARKALAR Bölümü (9/12'lik alan) -->
+                              <div class="col-md-9 pe-4"> <!-- sağ padding eklendi -->
+                                <h4 class="mb-4">TÜM MARKALAR</h4>
+                                <div class="row nav brands">
+                                  <!-- 1. Marka Grubu -->
+                                  <div class="col navbar-column mb-4">
+                                    <a href="product-list.html" class="dropdown-link text-dark text-decoration-none">Adidas</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Nike</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Puma</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Skechers</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Lotto</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Huf</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Reebok</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Parafina</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Salomon</a>
+                                  </div>
+                      
+                                  <!-- 2. Marka Grubu -->
+                                  <div class="col navbar-column mb-4">
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Rains</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">United</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Vans</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Veja</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Market</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Nautica</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Element</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Etnies</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Funko</a>
+                                  </div>
+                      
+                                  <!-- 3. Marka Grubu -->
+                                  <div class="col navbar-column mb-4">
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Columbia</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Brekenstock</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Casio</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Converse</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Crocs</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Jordan</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Primitive</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Timberland</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">XD Design</a>
+                                  </div>
+                      
+                                  <!-- 4. Marka Grubu -->
+                                  <div class="col navbar-column mb-4">
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Rains</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">United</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Vans</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Veja</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Market</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Nautica</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Element</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Etnies</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Funko</a>
+                                  </div>
+                                </div>
+                              </div>
+                      
+                              <!-- TRENDLER Bölümü (3/12'lik alan) -->
+                              <div class="col-md-3 navbar-column ps-4"> <!-- sol padding eklendi -->
+                                <h4 class="mb-4">Trendler</h4>
+                                <div class="nav-brand-swiper swiper-container">
+                                  <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                      <a href="#">
+                                        <img src="assets/images/product2.jpeg" class="img-fluid" alt="Ürün görseli">
+                                      </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                      <a href="#">
+                                        <img src="assets/images/product3.jpeg" class="img-fluid" alt="Ürün görseli">
+                                      </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                      <a href="#">
+                                        <img src="assets/images/product4.jpeg" class="img-fluid" alt="Ürün görseli">
+                                      </a>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>   
+                      <li class="nav-item dropdown">
+                        <!-- toggle sınıfı ve data-bs-toggle özniteliği kaldırıldı -->
+                        <a class="nav-link" aria-current="page" href="#">KADIN</a>
+                        <div class="dropdown-menu">
+                          <div class="container-fluid">
+                            <div class="row">
+                              <!-- Kategoriler Bölümü (9/12'lik alan) -->
+                              <div class="col-md-9 pe-4">
+                                <h4 class="mb-4">Kategoriler</h4>
+                                <div class="row nav categories">
+                                  <!-- 1. Kategori Grubu -->
+                                  <div class="col navbar-column mb-4">
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Bot</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Kar Botu</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Outdoor Ayakkabı</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Sandalet</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Terlik</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Spor Ayakkabılar</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Yürüyüş Ayakkabıları</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Sneakers</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Günlük Ayakkabılar</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Koşu Ayakkabıları</a>
+                                  </div>
+                                  <!-- 2. Kategori Grubu -->
+                                  <div class="col navbar-column mb-4">
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Babet</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Bağcıksız Ayakkabı</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Bottle</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Ev Ayakkabısı</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Loafer Ayakkabı</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Anne Ayakkabısı</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Spor Gelin Ayakkabısı</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Ayakkabı Bakım Ürünleri</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Webe Özel Ürünler</a>
+                                    <a href="#" class="dropdown-link text-dark text-decoration-none">Turn Kadın Ayakkabıları</a>
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- Trendler Bölümü (3/12'lik alan) -->
+                              <div class="col-md-3 navbar-column ps-4">
+                                <h4 class="mb-4">Trendler</h4>
+                                <div class="nav-brand-swiper swiper-container">
+                                  <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                      <a href="#">
+                                        <img src="assets/images/product2.jpeg" class="img-fluid" alt="Ürün görseli">
+                                      </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                      <a href="#">
+                                        <img src="assets/images/product3.jpeg" class="img-fluid" alt="Ürün görseli">
+                                      </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                      <a href="#">
+                                        <img src="assets/images/product4.jpeg" class="img-fluid" alt="Ürün görseli">
+                                      </a>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div><!-- row -->
+                          </div><!-- container-fluid -->
+                        </div><!-- dropdown-menu -->
+                      </li>
+                      
+                      
+                  <li class="nav-item">
+                    <a class="nav-link " href="#">ERKEK</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">ÇOCUK</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">YENİ</a>
+                  </li>
+
+<!--                 <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li> -->
+
+                </ul>
+
+              </div>
+              <div class="nav-right">
+                <a href="javascript:void(0)" class="search-open">
+                    <i class="bi bi-search zoom fs-4"></i>
+                </a>
+                <div class="search-inside bg-orange">
+                    <i class="bi bi-x search-close"></i>
+                    <div class="search-overlay"></div>
+                    <div class="position-center-center">
+                        <div class="search animate__animated animate__backInUp">
+                            <form action="">
+                                <input type="search" placeholder="Arama">
+                                <button type="submit"><i class="bi bi-check-circle"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+        
+
+
+    </header>
+    <main>
+      <div class="container ">
+        <div class="row">
+          <div class="col-md-12 my-orders p-5 shadow">
+            <h4>#10 Numaralı Siparişinizin Detayları</h4>
+            <div class="table-responsive">
+
+              <table class="table table-hover">
+                  <thead>
+                    <tr>
+                      <th scope="col">Ürünler</th>
+                      <th scope="col">Ürün Bilgi</th>
+                      <th scope="col">Adet</th>
+                      <th scope="col">Fiyat</th>
+                      <th scope="col">Toplam Fiyat</th>
+                    </tr>
+
+                  </thead>
+                <tbody>
+                    <tr>
+                    <td><img src="assets/images/product1.jpeg" alt=""></td>
+                    <td>
+                      <div>NiteBall</div>
+                      <div>Unisex Sneaker</div>
+                      <div>Adidas</div>
+                      <div>Beden:37</div>
+                    </td>
+                    <td class="s-amount">
+                      <div>1 Adet</div>
+                    </td>
+                    
+                    <td>
+                      199,90
+                    </td>
+                    <td>
+                      199,90
+                    </td>
+                    </tr>
+                    <tr>
+                    <td><img src="assets/images/product1.jpeg" alt=""></td>
+                    <td>
+                      <div>NiteBall</div>
+                      <div>Unisex Sneaker</div>
+                      <div>Adidas</div>
+                      <div>Beden:37</div>
+                    </td>
+                    <td class="s-amount">
+                      <div>1 Adet</div>
+                    </td>
+                    <td>
+                      199,90
+                    </td>
+                    <td>
+                      199,90
+                    </td>
+                    </tr>
+                    <tr>
+                    <td><img src="assets/images/product1.jpeg" alt=""></td>
+                    <td>
+                      <div>NiteBall</div>
+                      <div>Unisex Sneaker</div>
+                      <div>Adidas</div>
+                      <div>Beden:37</div>
+                    </td>
+                    <td class="s-amount">
+                      <div>1 Adet</div>
+                    </td>
+                    <td>
+                      199,90
+                    </td>
+                    <td>
+                      199,90
+                    </td>
+                    </tr>
+                    <tr>
+                    <td><img src="assets/images/product1.jpeg" alt=""></td>
+                    <td>
+                      <div>NiteBall</div>
+                      <div>Unisex Sneaker</div>
+                      <div>Adidas</div>
+                      <div>Beden:37</div>
+                    </td>
+                    <td class="s-amount">
+                      <div>1 Adet</div>
+                    </td>
+                    <td>
+                      199,90
+                    </td>
+                    <td>
+                      199,90
+                    </td>
+                    </tr>
+                    
+                </tbody>
+              </table>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="card">
+                  <div class="card-header py-3">
+                    <h6 class="m-0">Teslimat Bilgileri</h6>
+                  </div>
+                  <div class="card-body">
+                    <h6 class="text-orange">Teslimat Adresi</h6>
+                    <div my-4>Uğur Kara</div>
+                    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus repudiandae aspernatur nemo distinctio alias eligendi adipisci obcaecati quo quisquam, deserunt itaque accusamus eaque animi odio fuga dolorem cum aperiam consectetur?
+                    Iure officia quia aut, officiis cumque nesciunt exercitationem similique sapiente quod maiores laudantium voluptatem culpa commodi itaque ratione rem voluptates sint, accusantium molestiae in repudiandae. Voluptate, consequuntur modi. Repellat, culpa!
+                    Laboriosam expedita nobis unde consectetur odio, earum rem molestiae iusto nam! Cumque quisquam quas earum, doloribus laudantium labore maiores facere blanditiis natus deleniti voluptatum et commodi quidem, quo enim dicta.
+                    Perferendis quam, necessitatibus dignissimos perspiciatis maxime architecto amet illum cum quibusdam laborum molestiae ipsa nihil vero at atque id tempora vitae? Quas architecto unde iste sapiente voluptatibus! Facilis, aliquid eius.
+                    Porro beatae placeat officia tenetur unde modi quod, perspiciatis quae asperiores, culpa et nesciunt necessitatibus blanditiis at maxime dolore similique, deleniti quas laudantium inventore! Et provident laboriosam sint asperiores odit?</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="card">
+                  <div class="card-header py-3">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <h6 class="m-0">Ödeme Bilgileri</h6>
+                      </div>
+                      <div class="col-md-6">
+                        <span class="pull-right payment-type">
+                          <i class="bi bi-credit-card"></i>
+                          ***3045 -Tek Çekim
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <div class="grand-total border-0 p-0 px-1">
+                      <p>Ürünün Toplamı: <span class="pull-right">599,70TL</span></p>
+                      <p>Kargo Ücreti: <span class="pull-right">30TL</span></p>
+                      <p>İndirim Kodu:
+                      <br>
+                          #Sepette30 <span class="pull-right">30.00TL </span>
+                      </p>
+        
+        
+                      <br>
+                      <p><strong>TOPLAM:</strong> <span class="pull-right">599,78TL</span></p>
+        
+                    </div>
+                </div>
+              </div>
+            </div>
+ 
+          </div>
+
+        </div>
+
+      
+      </div>
+
+    </main>
+    <footer class="position-relative">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <h6 class="text-white">MARKALAR</h6>
+            <ul>
+              <li class="link">
+                <li><a href="#">Adidas</a></li>
+                <li><a href="#">Nike</a></li>
+                <li><a href="#">Puma</a></li>
+                <li><a href="#">Lumberjack</a></li>
+                <li><a href="#">Skechers</a></li>
+                <li><a href="#">Newbalance</a></li>
+
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h6 class="text-white">KATEGORİLER</h6>
+            <ul>
+              <li class="link">
+                <li><a href="#">Sneaker</a></li>
+                <li><a href="#">Basketbol Ayakkabısı</a></li>
+                <li><a href="#">Futbol Ayakkabısı</a></li>
+                <li><a href="#">Fitness Ayakkabısı</a></li>
+                <li><a href="#">Bot</a></li>
+                <li><a href="#">Terlik</a></li>
+
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h6 class="text-white">KURUMSAL</h6>
+            <ul>
+              <li class="link">
+                <li><a href="#">Hakkımızda</a></li>
+                <li><a href="#">Kullanıcı Sözleşmesi</a></li>
+                <li><a href="#">Gizlilik ve Çerez Politikası</a></li>
+                <li><a href="#">Bilgi Toplumu Hizmetleri</a></li>
+                <li><a href="#">Kişisel Verilerin Korunması</a></li>
+                <li><a href="#">İletişim</a></li>
+
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h6 class="text-white">ÖNEMLİ BİLGİLER</h6>
+            <ul>
+              <li class="link">
+                <li><a href="#">Sıkça Sorulan Sorular</a></li>
+                <li><a href="#">Garanti & İade Sorgulama</a></li>
+                <li><a href="#">Sipariş İşlemleri</a></li>
+                <li><a href="#">Kargo & Teslimat</a></li>
+                <li><a href="#">İade & Ürünler</a></li>
+                <li><a href="#">Mağazalar</a></li>
+
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="js/jquery/dist/jquery.min.js"></script>
+    <script src="swiper/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/home.js"></script>
+    <script src="js/product-detail.js"></script>
+</body>
+</html>

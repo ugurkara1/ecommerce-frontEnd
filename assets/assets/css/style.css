@@ -975,7 +975,8 @@ footer {
 
 }
 
-.card-page table th{
+.card-page table th,
+.my-orders table th{
     font-weight: 300;
     font-size: 14px;
 }
@@ -983,15 +984,21 @@ footer {
 .card-page table div{
     font-size: 14px;
 }
-
-.card-page table tbody,
 .card-page table td,
-.card-page table tfoot,
-.card-page table th,
-.card-page table thead,
-.card-page table tr{
+.my-orders table td{
+    vertical-align: middle;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.my-orders table tbody,
+.my-orders table td,
+.my-orders table tfoot,
+.my-orders table th,
+.my-orders table thead,
+.my-orders table tr{
     border-color: #f38509;
 }
+
 
 .card-page table .piece-wrapper .input-group{
     width: 150px;
@@ -1191,3 +1198,28 @@ footer {
 .btn-contracts-approve:hover{
     color: #b76306 !important;
 }
+
+/* Order detail */
+
+.s-amount div{
+    font-size: 12px;
+}
+.my-orders table td{
+    vertical-align: middle;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.my-orders .card,
+.my-orders .card-header{
+    border-color: #f38509 !important;
+}
+.my-orders .card-header{
+    background-color: rgb(243 133 7 / 38%);
+    
+}
+.my-orders table img{
+    width: 100px;
+
+}
+.my-orders .grand-total{padding-bottom: 0;}
